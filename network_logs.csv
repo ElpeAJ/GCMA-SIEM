@@ -1,0 +1,64 @@
+Timestamp,Source_IP,Destination_IP,Protocol,Destination_Port,Bytes_Transferred,Action,Notes
+2026-08-25T08:08:14Z,192.168.10.45,102.176.56.12,TCP,443,4901,ALLOW,Active mail traffic syncing inbox
+2026-08-25T08:14:48Z,192.168.10.45,102.176.56.12,TCP,443,1844,ALLOW,Active mail traffic syncing inbox
+2026-08-25T08:24:26Z,192.168.10.45,102.176.56.12,TCP,443,2674,ALLOW,Active mail traffic syncing inbox
+2026-08-25T08:31:00Z,192.168.10.45,102.176.56.12,TCP,443,2772,ALLOW,Active mail traffic syncing inbox
+2026-08-25T08:38:09Z,192.168.10.45,102.176.56.12,TCP,443,1695,ALLOW,Active mail traffic syncing inbox
+2026-08-25T08:43:55Z,192.168.10.45,102.176.56.12,TCP,443,3004,ALLOW,Active mail traffic syncing inbox
+2026-08-25T08:49:50Z,192.168.10.45,102.176.56.12,TCP,443,4562,ALLOW,Active mail traffic syncing inbox
+2026-08-25T08:58:39Z,192.168.10.45,102.176.56.12,TCP,443,1535,ALLOW,Active mail traffic syncing inbox
+2026-08-25T09:05:40Z,192.168.10.45,102.176.56.12,TCP,443,1716,ALLOW,Active mail traffic syncing inbox
+2026-08-25T09:15:37Z,192.168.10.45,102.176.56.12,TCP,443,2573,ALLOW,Active mail traffic syncing inbox
+2026-08-25T09:21:49Z,192.168.10.45,102.176.56.12,TCP,443,4739,ALLOW,Active mail traffic syncing inbox
+2026-08-25T09:28:44Z,192.168.10.45,102.176.56.12,TCP,443,767,ALLOW,Active mail traffic syncing inbox
+2026-08-25T09:37:37Z,192.168.10.45,102.176.56.12,TCP,443,3717,ALLOW,Active mail traffic syncing inbox
+2026-08-25T09:47:04Z,192.168.10.45,102.176.56.12,TCP,443,1015,ALLOW,Active mail traffic syncing inbox
+2026-08-25T09:56:56Z,192.168.10.45,102.176.56.12,TCP,443,2853,ALLOW,Active mail traffic syncing inbox
+2026-08-25T10:04:19Z,192.168.10.45,102.176.56.12,TCP,443,2127,ALLOW,Active mail traffic syncing inbox
+2026-08-25T10:09:43Z,192.168.10.45,102.176.56.12,TCP,443,1413,ALLOW,Active mail traffic syncing inbox
+2026-08-25T10:15:58Z,192.168.10.45,102.176.56.12,TCP,443,2343,ALLOW,Active mail traffic syncing inbox
+2026-08-25T10:24:24Z,192.168.10.45,102.176.56.12,TCP,443,3974,ALLOW,Active mail traffic syncing inbox
+2026-08-25T10:33:57Z,192.168.10.45,102.176.56.12,TCP,443,4562,ALLOW,Active mail traffic syncing inbox
+2026-08-25T10:41:25Z,192.168.10.45,102.176.56.12,TCP,443,3405,ALLOW,Active mail traffic syncing inbox
+2026-08-25T10:51:19Z,192.168.10.45,102.176.56.12,TCP,443,3469,ALLOW,Active mail traffic syncing inbox
+2026-08-25T10:57:33Z,192.168.10.45,102.176.56.12,TCP,443,4789,ALLOW,Active mail traffic syncing inbox
+2026-08-25T11:06:57Z,192.168.10.45,102.176.56.12,TCP,443,3986,ALLOW,Active mail traffic syncing inbox
+2026-08-25T11:15:38Z,192.168.10.45,102.176.56.12,TCP,443,1716,ALLOW,Active mail traffic syncing inbox
+2026-08-25T11:30:15Z,192.168.10.45,198.51.100.77,TCP,80,14500,ALLOW,HTTP POST outbound plain-text login redirect
+2026-08-25T11:41:52Z,192.168.10.45,102.176.56.12,TCP,443,3321,ALLOW,Routine internal keep-alive handshake
+2026-08-25T11:51:30Z,192.168.10.45,102.176.56.12,TCP,443,3035,ALLOW,Routine internal keep-alive handshake
+2026-08-25T12:01:21Z,192.168.10.45,102.176.56.12,TCP,443,1316,ALLOW,Routine internal keep-alive handshake
+2026-08-25T12:09:44Z,192.168.10.45,102.176.56.12,TCP,443,1384,ALLOW,Routine internal keep-alive handshake
+2026-08-25T12:20:13Z,192.168.10.45,102.176.56.12,TCP,443,1630,ALLOW,Routine internal keep-alive handshake
+2026-08-25T12:30:13Z,192.168.10.45,102.176.56.12,TCP,443,3222,ALLOW,Routine internal keep-alive handshake
+2026-08-25T12:39:13Z,192.168.10.45,102.176.56.12,TCP,443,2677,ALLOW,Routine internal keep-alive handshake
+2026-08-25T12:50:52Z,192.168.10.45,102.176.56.12,TCP,443,1586,ALLOW,Routine internal keep-alive handshake
+2026-08-25T13:00:23Z,192.168.10.45,102.176.56.12,TCP,443,1917,ALLOW,Routine internal keep-alive handshake
+2026-08-25T13:10:48Z,192.168.10.45,102.176.56.12,TCP,443,2462,ALLOW,Routine internal keep-alive handshake
+2026-08-25T13:19:10Z,192.168.10.45,102.176.56.12,TCP,443,1151,ALLOW,Routine internal keep-alive handshake
+2026-08-25T13:28:43Z,192.168.10.45,102.176.56.12,TCP,443,1017,ALLOW,Routine internal keep-alive handshake
+2026-08-25T13:38:09Z,192.168.10.45,102.176.56.12,TCP,443,2058,ALLOW,Routine internal keep-alive handshake
+2026-08-25T13:48:47Z,192.168.10.45,102.176.56.12,TCP,443,2681,ALLOW,Routine internal keep-alive handshake
+2026-08-25T13:58:39Z,192.168.10.45,102.176.56.12,TCP,443,1799,ALLOW,Routine internal keep-alive handshake
+2026-08-25T14:22:05Z,45.138.99.12,102.176.56.12,TCP,443,4800,ALLOW,HTTPS GET /owa/auth.src cookie_present=true
+2026-08-25T14:26:10Z,45.138.99.12,102.176.56.12,TCP,443,8900,ALLOW,High-volume active sync from rogue external IP
+2026-08-25T14:31:10Z,192.168.10.45,102.176.56.12,TCP,443,2641,ALLOW,Concurrent connection from local workstation
+2026-08-25T14:38:10Z,192.168.10.45,102.176.56.12,TCP,443,1248,ALLOW,Concurrent connection from local workstation
+2026-08-25T14:44:10Z,192.168.10.45,102.176.56.12,TCP,443,2484,ALLOW,Concurrent connection from local workstation
+2026-08-25T14:50:10Z,192.168.10.45,102.176.56.12,TCP,443,1498,ALLOW,Concurrent connection from local workstation
+2026-08-25T14:58:10Z,192.168.10.45,102.176.56.12,TCP,443,1497,ALLOW,Concurrent connection from local workstation
+2026-08-25T15:05:10Z,192.168.10.45,102.176.56.12,TCP,443,1854,ALLOW,Concurrent connection from local workstation
+2026-08-25T15:13:10Z,192.168.10.45,102.176.56.12,TCP,443,2674,ALLOW,Concurrent connection from local workstation
+2026-08-25T15:19:10Z,192.168.10.45,102.176.56.12,TCP,443,1505,ALLOW,Concurrent connection from local workstation
+2026-08-25T15:27:10Z,192.168.10.45,102.176.56.12,TCP,443,2058,ALLOW,Concurrent connection from local workstation
+2026-08-25T15:35:10Z,192.168.10.45,102.176.56.12,TCP,443,1322,ALLOW,Concurrent connection from local workstation
+2026-08-25T15:43:10Z,192.168.10.45,102.176.56.12,TCP,443,2758,ALLOW,Concurrent connection from local workstation
+2026-08-25T15:51:10Z,192.168.10.45,102.176.56.12,TCP,443,2641,ALLOW,Concurrent connection from local workstation
+2026-08-25T15:58:10Z,192.168.10.45,102.176.56.12,TCP,443,1399,ALLOW,Concurrent connection from local workstation
+2026-08-25T16:04:10Z,192.168.10.45,102.176.56.12,TCP,443,1656,ALLOW,Concurrent connection from local workstation
+2026-08-25T16:11:10Z,192.168.10.45,102.176.56.12,TCP,443,1515,ALLOW,Concurrent connection from local workstation
+2026-08-25T16:17:10Z,192.168.10.45,102.176.56.12,TCP,443,1956,ALLOW,Concurrent connection from local workstation
+2026-08-25T16:23:10Z,192.168.10.45,102.176.56.12,TCP,443,2127,ALLOW,Concurrent connection from local workstation
+2026-08-25T16:29:10Z,192.168.10.45,102.176.56.12,TCP,443,1716,ALLOW,Concurrent connection from local workstation
+2026-08-25T16:35:10Z,192.168.10.45,102.176.56.12,TCP,443,2220,ALLOW,Concurrent connection from local workstation
+2026-08-25T16:42:10Z,192.168.10.45,102.176.56.12,TCP,443,2624,ALLOW,Concurrent connection from local workstation
