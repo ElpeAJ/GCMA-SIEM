@@ -1,6 +1,8 @@
 # GCMA Enterprise SIEM & Incident Triage Console
 An end-to-end incident detection and analysis pipeline built in accordance with the NIST SP 800-61 Incident Handling Guide. This platform correlates multi-source log feeds in real time to isolate an active session hijacking and unauthorized persistence attempt targeting high-value infrastructure identities.
 
+👉 **[Live SIEM Interactive Console](https://gcma-siem.streamlit.app)**
+
 <img width="1564" height="867" alt="Screenshot of the SIEM Dashboard" src="https://github.com/user-attachments/assets/7ff6d69e-d43d-40fc-8fea-1baac0e6e385" />
 
 ## Project Architecture
@@ -109,6 +111,5 @@ tcp.port == 443 && ip.addr == 102.176.56.12
 ## Live Deployment
 For quick review without a local development environment, access the production cloud deployment directly:
 👉 **[Live SIEM Interactive Console](https://gcma-siem.streamlit.app)**
-
 
 https://gcma-siem.streamlit.app
