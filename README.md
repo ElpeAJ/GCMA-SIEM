@@ -20,6 +20,8 @@ The platform ingests three distinct, normalized logging feeds to reconstruct an 
 
 ## Repository Directory Structure
 The repository workspace contains all the required historical logs, binary network captures, and deployment code engines:
+
+```txt
 ├── app.py                      # Main production multi-tab Streamlit dashboard
 ├── SIEM.py                     # CLI baseline correlation script
 ├── system_logs.csv             # Raw application event logs (Mrs. Afriyie's session data)
@@ -29,6 +31,7 @@ The repository workspace contains all the required historical logs, binary netwo
 ├── networkLogs.pcap            # Binary packet trace matching transaction metrics
 ├── firewallLogs.pcap           # Binary packet trace matching boundary traffic
 └── reconstructed_combined.pcap # Final master merged pcap tracking the global incident timeline
+```
 
 ## Local Deployment Instructions
 
