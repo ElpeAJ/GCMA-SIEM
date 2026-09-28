@@ -18,8 +18,8 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("🛡️ Enterprise SIEM & Incident Triage Console")
-st.subheader("Unified Log Correlation Engine — Core Analytical Workspace")
+st.title("🛡️ GMAC Enterprise SIEM & Incident Triage Console")
+st.subheader("Automated Log Correlation Engine & Analytical Workspace")
 st.markdown("---")
 
 # --- SIDEBAR CONFIGURATION ---
@@ -70,9 +70,9 @@ with tab1:
     
     with col_left:
         st.write("### Live Data Ingestion Pipeline")
-        with st.expander("Raw Log Intake Stream (Developer Debug Mode)", expanded=False):
+        with st.expander("Raw Log Intake Stream (Developer Debug Mode)", expanded=True):
             log_terminal = st.empty()
-            log_terminal.text_area("Intake Buffer", value="\n".join(st.session_state.log_lines_history[-12:]), height=240, label_visibility="collapsed", disabled=True)
+            log_terminal.text_area("Intake Buffer", value="\n".join(st.session_state.log_lines_history[-12:]), height=140, label_visibility="collapsed", disabled=True)
         
     with col_right:
         st.write("### Real-Time SIEM Alerts")
@@ -80,11 +80,11 @@ with tab1:
         with alert_container:
             for record in st.session_state.alert_records:
                 if record["severity"] in ["CRITICAL", "HIGH"]: 
-                    st.error(f"[{record['id']}] {record['severity']} ALARM: {record['desc']} ({record['time']})")
+                    st.error(f"[{record['id']}] {record['severity']} ALERT: {record['desc']} ({record['time']})")
                 else: 
                     st.warning(f"[{record['id']}] {record['severity']} ALERT: {record['desc']} ({record['time']})")
     # Ingestion Button Action
-    if st.button("🚀 Inject Logs & Trigger Detection Pipeline", type="primary"):
+    if st.button("Inject Logs & Trigger Alert Detection", type="primary"):
         st.session_state.alert_records = []
         st.session_state.incident_count = 0
         st.session_state.total_rows = 0
@@ -231,8 +231,22 @@ with tab1:
             else:
                 st.success(f"Triage Closed! Ticket updated to status: CLOSED - {verdict}.")
         st.markdown('</div>', unsafe_allow_html=True)
+with tab2:
+    st.write("### 📊 Network Session Data Visualizations")
+    chart_data = pd.DataFrame({
+        'Threat Rule ID': ['R1014 (Cred Leak)', 'R3089 (Edge Scan)', 'R4022 (Hijack)', 'R5011 (Persistence)', 'R7012 (Ransomware)', 'R2045 (Travel)', 'R6088 (SQLi)'],
+        'Incidents Triggered': [1 if st.session_state.incident_count > 0 else 0, 1 if st.session_state.incident_count > 0 else 0, 1 if st.session_state.incident_count > 0 else 0, 1 if st.session_state.incident_count > 0 else 0, 0, 0, 0]
+    })
+    st.bar_chart(data=chart_data, x='Threat Rule ID', y='Incidents Triggered', color="#f85149")
 
-
+with tab3:
+    st.write("### 📖 Incident Response Forensics Playbook (NIST SP 800-61)")
+    st.markdown("""
+    When **Rule 4022 (Token Hijacking)** or **Rule 5011 (Persistence)** fires, the following mandatory SOC isolation playbooks are executed programmatically:
+    1. **Immediate Revocation (Containment):** Globally invalidate the current OAuth token array (`GAC-993821-X3`) across corporate directories.
+    2. **Perimeter Block (Eradication):** Push an automated API network call to border firewalls to isolate traffic from host `45.138.99.12`.
+    3. **Configuration Remediation (Recovery):** Access Exchange Management Shell and execute standard rule purge queries to delete the unauthorized forwarding rule targeting the external secure-mail domain.
+    """)
 
 
 
